@@ -87,8 +87,5 @@ let package = Package(
         .library(name: "NIOFoundationCompat", targets: ["NIOFoundationCompat"]),
         .library(name: "NIOWebSocket", targets: ["NIOWebSocket"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-nio-zlib-support.git", from: "1.0.0"),
-    ],
     targets: targets
 )
